@@ -19,7 +19,7 @@ import Drawer from "./pages/drawer";
 
 const theme = createMuiTheme(themeFile);
 axios.defaults.baseURL =
-  "https://us-central1-social-blaze.cloudfunctions.net/api";
+  "YOUR API";
 
 class App extends Component {
   componentDidMount() {
